@@ -272,13 +272,19 @@ const BLOG = {
       name: '鼓楼',
       artist: '李雨霏',
       url: 'https://musicbed.oss-cn-beijing.aliyuncs.com/%E6%B0%91%E8%B0%A3/%E9%BC%93%E6%A5%BC.aac',
-      cover: 'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+      cover: 'https://i1.hdslb.com/bfs/archive/3d6aa52dcb6f3979cf788d92659c4e6e90e62e3f.jpg'
     },
     {
       name: '童话镇',
       artist: '周二珂',
       url: 'https://musicbed.oss-cn-beijing.aliyuncs.com/%E6%B0%91%E8%B0%A3/%E7%AB%A5%E8%AF%9D%E9%95%87_%E4%BA%8C%E7%8F%82.mp3',
-      cover: 'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+      cover: 'https://i1.hdslb.com/bfs/archive/e074968fcd2fff0966c8a728bf7bc05cf4afb8e5.jpg'
+    },
+    {
+      name: '人间',
+      artist: '王菲',
+      url: 'https://musicbed.oss-cn-beijing.aliyuncs.com/%E6%B0%91%E8%B0%A3/%E4%BA%BA%E9%97%B4_%E7%8E%8B%E8%8F%B2.aac',
+      cover: 'https://i2.hdslb.com/bfs/archive/b400ab560afd9da111612e9a056242460358b48b.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
